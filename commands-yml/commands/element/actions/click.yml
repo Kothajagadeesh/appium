@@ -9,7 +9,7 @@ description:
 example_usage:
   java:
     |
-      MobileElement el = driver.findElementByAccessibilityId("SomeId");
+      MobileElement el = (MobileElement) driver.findElementByAccessibilityId("SomeId");
       el.click();
   python:
     |
